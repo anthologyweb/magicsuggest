@@ -1,6 +1,6 @@
 {
   "name": "magicsuggest",
-  "version": "1.0.0",
+  "version": "4.0.0",
   "description": "Looking for maintainers\r -----------------------\r Please see: https://github.com/nicolasbize/magicsuggest/issues/307",
   "main": "magicsuggest.js",
   "scripts": {
