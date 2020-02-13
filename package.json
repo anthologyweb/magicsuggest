@@ -1,0 +1,20 @@
+{
+  "name": "magicsuggest",
+  "version": "1.0.0",
+  "description": "Looking for maintainers\r -----------------------\r Please see: https://github.com/nicolasbize/magicsuggest/issues/307",
+  "main": "magicsuggest.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anthologyweb/magicsuggest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anthologyweb/magicsuggest/issues"
+  },
+  "homepage": "https://github.com/anthologyweb/magicsuggest#readme"
+}
