@@ -890,7 +890,14 @@
                 // holds the suggestions. will always be placed on focus
                 ms.combobox = $('<div/>', {
                     'class': 'ms-res-ctn dropdown-menu'
-                }).height(cfg.maxDropHeight);
+                }).height(cfg.maxDropHeight).css({
+									'-webkit-transform' : 'scale(1)',
+									'-moz-transform'    : 'scale(1)',
+									'-ms-transform'     : 'scale(1)',
+									'-o-transform'      : 'scale(1)',
+									'transform'         : 'scale(1)',
+									'opacity'						: 100
+								});
 
                 // bind the onclick and mouseover using delegated events (needs jQuery >= 1.7)
                 ms.combobox.on('click', 'div.ms-res-item', $.proxy(handlers._onComboItemSelected, this));
